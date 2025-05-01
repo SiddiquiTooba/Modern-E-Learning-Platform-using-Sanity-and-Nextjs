@@ -10,7 +10,7 @@ function Loading() {
         <Skeleton className="h-8 w-3/5 max-w-2xl" />
       </div>
 
-      {/* Grid of Course Card Skeletons */}
+      {/* Course Cards Preloader Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Array.from({ length: 6 }).map((_, i) => (
           <div

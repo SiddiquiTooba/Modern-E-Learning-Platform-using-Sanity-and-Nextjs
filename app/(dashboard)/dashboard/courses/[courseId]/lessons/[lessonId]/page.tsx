@@ -59,3 +59,4 @@ export default async function LessonPage({ params }: LessonPageProps) {
     </div>
   );
 }
+

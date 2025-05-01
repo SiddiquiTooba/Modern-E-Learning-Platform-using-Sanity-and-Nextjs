@@ -25,7 +25,7 @@ export async function createStripeCheckout(courseId: string, userId: string) {
       throw new Error("Course not found");
     }
 
-    // mid step - create a user in sanity if it doesn't exist
+    // create a user in sanity if it doesn't exist
     const user = await createStudentIfNotExists({
       clerkId: userId,
       email: email || "",

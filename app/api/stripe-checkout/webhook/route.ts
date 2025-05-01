@@ -5,7 +5,7 @@ import { getStudentByClerkId } from "@/sanity/lib/student/getStudentByClerkId";
 import { createEnrollment } from "@/sanity/lib/student/createEnrollment";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2023-10-16" as Stripe.LatestApiVersion,
+  apiVersion: "2025-03-31.basil" as Stripe.LatestApiVersion,
 });
 
 const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!;
@@ -69,3 +69,4 @@ export async function POST(req: Request) {
     return new NextResponse("Webhook handler failed", { status: 500 });
   }
 }
+
