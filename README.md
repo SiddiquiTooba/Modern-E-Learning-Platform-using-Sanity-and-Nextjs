@@ -1,4 +1,4 @@
-# Modern E-Learning Platform using Strapi and Nextjs
+# Modern E-Learning Platform using Sanity and Nextjs
 1. Introduction
 With the increasing demand for online education, there is a need for modern, scalable e-learning platforms that can deliver high-quality content and foster interaction between students and instructors. This proposal outlines the development of an e-learning platform sanity as the headless CMS and Next.js for the frontend, providing a flexible, scalable, and user-friendly platform for both learners and educators.
 2. Objectives
